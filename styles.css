@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(239, 239, 239);
+}
+
+.nav {
+    list-style: none;
+    background-color: #22222281;
+    overflow: hidden;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 80%;
+}
+
+.nav li {
+    width: 10em;
+    line-height: 60px;
+}
+
+.nav a:hover {
+    background-color: #12121287;
+    transition: 0.5s;
+}
+
+.nav a {
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    padding: 5px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.user-profile-wrapper {
+    width: 100vw;
+    height: 600px;
+    background-image: url(src/landing.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-photo {
+    margin-top: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.user-name {
+    padding-top:20px;
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+}
+
+.user-info {
+    margin-top: 50px;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.btn-user-resume {
+    width: 170px;
+    height: 60px;
+    border-radius: 35px;
+    border: white solid 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.btn-user-resume:hover {
+    border: white solid 5px;
+    transition: 200ms;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+.gallery {
+    text-align: center;
+}
+
+.project-wrapper { 
+    width: 80vw;
+    height: 400px;
+    display: inline-block;
+    margin: 60px;
+    background-color: white;
+}
+
+.project-detail{
+    height: 75%;
+}
+
+.project-img-left {
+    height: 100%;
+    width: 50%;
+    float: left;
+    object-fit: cover;
+}
+
+.project-img-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+    object-fit: cover;
+}
+
+.project-title {
+    margin-top: 20px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.project-info {
+    font-weight: 300;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.btn-preview {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: rgb(92, 161, 217) solid 3px;
+    background-color: transparent;
+    color: rgb(92, 161, 217);
+    font-size: large;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.btn-preview:hover {
+    border: lightblue solid 3px;
+    color:lightblue;
+    transition: 200ms;
+}
+
+
+
+
+
+
+.project-demo-title-back {
+    width: 100%;
+    background-image: url(src/landing.jpg);
+    background-size: cover;
+    height: 200px;
+    color: white;
+    font-size: 34px;
+    font-weight: 200;
+}
+
+.project-demo-title-back div {
+padding-top: 110px;
+text-align: center;
+}
+
+.btn-return {
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: rgb(92, 161, 217) solid 3px;
+    background-color: transparent;
+    color: rgb(92, 161, 217);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-return:hover {
+    border: lightblue solid 3px;
+    color:lightblue;
+    transition: 200ms;
+}
+
+.project-demo-wrapper{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 80px;
+}
+
+.project-demo-description {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.profile-wrapper {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-user-info {
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.profile-detail {
+    width: 70%;
+}
+
+.profile-user-photo {
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+    margin-bottom: 30px;
+}
+
+
+.profile-selfintro {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.profile-projects{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    line-height: 40px;
+    background-color: white;
+}
+
+
+
+

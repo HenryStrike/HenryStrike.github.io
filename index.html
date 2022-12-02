@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.pdf">Resume</a></li>
+        <li><a href="https://github.com/HenryStrike/">Github</a></li>
+        <li><a href="bio.html">About</a></li>
+    </ul>
+
+    <div class="user-profile-wrapper">
+        <img src="src/user.png" alt="user-photo" class="user-photo">
+        <div class="user-name">Hongle Che</div>
+        <div class="user-info">CG projects demo page</div>
+        <button class="btn-user-resume" onclick="handleBio()">About me</button>
+    </div>
+
+    <div class="gallery">
+        <div class="project-wrapper">
+            <img class="project-img-left" src="/src/p1.png"/>
+            <div class="project-detail">
+                <div class="project-title">3D shading</div>
+                <div class="project-info">
+                    This is a project about sine wave distortion
+                </div>
+            </div>
+            <button class="btn-preview" onclick="handleProject()">Preview</button>
+
+        </div>
+        <div class="project-wrapper">
+            <img class="project-img-right" src="/src/p2.png"/>
+            <div class="project-detail">
+                <div class="project-title">Basketball man</div>
+                <div class="project-info">
+                    This is a project about basketball and a man
+                </div>
+            </div>
+            <button class="btn-preview">Preview</button>
+        </div>  
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

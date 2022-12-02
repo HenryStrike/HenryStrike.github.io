@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.pdf">Resume</a></li>
+        <li><a href="https://github.com/HenryStrike/">Github</a></li>
+        <li><a href="bio.html">About</a></li>
+    </ul>
+
+    <div class="project-demo-title-back">
+        <div>Project 1: 3D shading</div>
+    </div>
+    <button class="btn-return" onclick="handleBack()">Back</button>
+    <div class="project-demo-wrapper">
+        <div class="project-demo-description">
+            <p>This project is about 4 different 3D shading methods, namely Gouraud Shading, Phone Shading and two light sources Phone Light, Blinn-Phone Light.</p>
+            <img src="src/p1.png" alt="p1" style="width: 700px; border-radius: 2px; margin-top: 10px;">
+            <p>This red ball shows the effect of Phone Shading and Phone Light on a red plastic material.</p>
+            <p>Use the interface options to switch between different rendering methods at will and to adjust the camera view.</p>
+            <img src="src/p11.png" alt="p1" style="width: 700px; border-radius: 2px; margin-top: 10px;">
+            <p>By changing the RGB values of different light sources, we can make different rendering effects happen to the object. The following figure shows a sphere made of green plastic as an example.</p>
+            <img src="src/p12.png" alt="p1" style="width: 700px; border-radius: 2px; margin-top: 10px;">
+            <p>The highlights on the sphere are a kind of specular reflection light, we can control this part of the light source alone so that the sphere only receives the influence of Diffusion light.</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
