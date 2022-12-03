@@ -286,3 +286,54 @@ text-align: center;
 
 
 
+.contact-wrapper {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 40px;
+    background-color: white;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+    height: 40px;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#btn-submit{
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    border: rgb(92, 161, 217) solid 3px;
+    background-color: transparent;
+    color: rgb(92, 161, 217);
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn-submit:hover {
+    border: lightblue solid 3px;
+    color:lightblue;
+    transition: 200ms;
+}
+
+
