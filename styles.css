@@ -235,9 +235,10 @@ text-align: center;
 .profile-wrapper {
     margin: 0 auto;
     width: 70%;
-    padding-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .profile-user-info {
@@ -282,6 +283,7 @@ text-align: center;
     line-height: 40px;
     background-color: white;
 }
+
 
 
 
