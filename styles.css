@@ -337,3 +337,19 @@ label {
 }
 
 
+
+
+
+.chart {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 40px;
+    background-color: white;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+#myDiv {
+    margin: 0 auto;
+    margin-top: 40px;
+}
